@@ -7,6 +7,7 @@
 .upper-page {
     background-color: #1f2937;
     padding-bottom: 80px;
+    color: white;
 }
 
 ul {
@@ -26,7 +27,7 @@ p {
     margin-top: 40px;
 }
 
-.img {
+.imgblock1 {
     width: 450px; height: 200px;
 }
 
@@ -46,10 +47,44 @@ button {
     width: 300px;
 }
 
-body {
-    color: white;
-}
 
 .container {
     padding: 0px 150px;
+}
+
+#h2text {
+    color: black;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgblock2 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.imgblock2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 48px;
+    
+}
+
+.block3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#block3txt {
+    font-size: 34px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
 }
