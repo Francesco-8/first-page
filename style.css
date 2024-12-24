@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px
+}
+
+.upper-page {
+    background-color: #1f2937;
+    padding-bottom: 80px;
+}
+
+ul {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+}
+
+p {
+    display: flex;
+}
+
+.block1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.img {
+    width: 450px; height: 200px;
+}
+
+.sx {
+    height: 200px;
+    width: 450px;
+}
+
+button {
+    width: 90px;
+    background-color: #3a82f6;
+    color: white;
+    border-radius: 6px;
+}
+
+.text {
+    width: 300px;
+}
+
+body {
+    color: white;
+}
+
+.container {
+    padding: 0px 150px;
+}
